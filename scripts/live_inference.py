@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import joblib
 
-clf = joblib.load("../model/gesture_model.pkl")
+clf = joblib.load("../model/gesture_gru_model.h5")
 
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
