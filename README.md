@@ -119,6 +119,7 @@ python train_model_gru.py
 model/gesture_gru_best.keras / model/gesture_gru_final.keras
 model/label_encoder.pkl
 result/history.png, result/metrics.json
+
 ---
 ### 실시간 추론(Real-Time Inference)
 A) API용 — sampleAPI.py
