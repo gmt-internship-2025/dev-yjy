@@ -1,0 +1,38 @@
+{
+  "data_dir": "/home/jiyoon/Projects/mediapipe-gesture/data",
+  "out_dir": "/home/jiyoon/Projects/mediapipe-gesture/dataset",
+  "num_samples": 522,
+  "sequence_length": 10,
+  "feature_dim": 84,
+  "labels": [
+    "freezing_down",
+    "freezing_left",
+    "freezing_right",
+    "scroll_down",
+    "scroll_up",
+    "start",
+    "stop",
+    "swipe_left_to_right",
+    "swipe_right_to_left"
+  ],
+  "per_label_counts": {
+    "freezing_down": 9,
+    "freezing_left": 13,
+    "freezing_right": 25,
+    "scroll_down": 76,
+    "scroll_up": 101,
+    "start": 89,
+    "stop": 62,
+    "swipe_left_to_right": 88,
+    "swipe_right_to_left": 59
+  },
+  "skipped": 0,
+  "modality": "hands",
+  "use_standardize": true,
+  "use_z": false,
+  "num_blocks": 2,
+  "feature_dim_per_block": 42,
+  "masked_landmarks": [],
+  "mask_value": 0.0,
+  "note": "X shape = (N, T, 84) with two-hands (x,y). 특정 랜드마크의 (x,y)를 양손 블록 모두 mask_value로 설정."
+}
