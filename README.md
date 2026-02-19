@@ -137,3 +137,8 @@ B) 영상 실시간 확인 — live_inference_gru.py
 ```
 python ive_inference_gru.py
 ```
+
+
+### 작업 과정 및 결과물 문서화
+아래 노션에서 확인 가능
+> https://www.notion.so/25ea185cafa7809eac42febb724527ad?v=25ea185cafa7813daa4b000c37a5915e&source=copy_link
